@@ -233,6 +233,13 @@ input:focus {
     form       {
         padding: 25px;
     }
+
+    .undertext      {
+        color: rgb(160, 160, 160);
+        font-family: 'Poppins', sans-serif;
+       font-weight: 300;
+        font-size:10px;
+    }
     
 }
 
@@ -336,6 +343,13 @@ input:focus {
 
     form       {
         padding: 25px;
+    }
+
+    .undertext      {
+        color: rgb(160, 160, 160);
+        font-family: 'Poppins', sans-serif;
+       font-weight: 300;
+        font-size:10px;
     }
     
 }
