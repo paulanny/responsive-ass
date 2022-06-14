@@ -237,7 +237,7 @@ input:focus {
 }
 
 
-@media  (min-width:386px) and (max-width:420px) {
+@media  (min-width:386px) and (max-width:460px) {
     .textsform {
         display: block;
         width: 90%;
