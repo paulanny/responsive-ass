@@ -16,6 +16,7 @@ form.addEventListener('submit', (e)=> {
         errorMsg[0].innerHTML = "First Name cannot be Empty";
         Icons[0].style.opacity ="1";
         FirstName.style.borderColor = 'red'
+        FirstName.removeAttribute('placeholder');
     } 
     else{
         errorMsg[0].innerHTML = '';
@@ -27,6 +28,7 @@ form.addEventListener('submit', (e)=> {
         errorMsg[1].innerHTML = "Last Name cannot be Empty";
         Icons[1].style.opacity ="1"
         LastName.style.borderColor = 'red'
+        LastName.removeAttribute('placeholder');
     }
     //if(!LastName.match(/^[A-Za-z]*\s{1}[A-Za-z]*&/)){
         //errorMsg[1].innerHTML = "wrong input";
@@ -42,6 +44,7 @@ form.addEventListener('submit', (e)=> {
         errorMsg[3].innerHTML = "Password cannot be Empty";
         Icons[3].style.opacity ="1"
         password.style.borderColor = 'red'
+        password.removeAttribute('placeholder');
     }
     else{
         errorMsg[3].innerHTML = '';
@@ -54,6 +57,7 @@ form.addEventListener('submit', (e)=> {
         errorMsg[2].innerHTML = "Email cannot be Empty";
        Icons[2].style.opacity ="1"
        email.style.borderColor = 'red'
+       email.removeAttribute('placeholder');
         return false;
     }
    else{
