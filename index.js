@@ -60,20 +60,20 @@ form.addEventListener('submit', (e)=> {
        email.removeAttribute('placeholder');
         return false;
     }
-   else{
-       errorMsg[3].innerHTML = '';
-       Icons[3].style.opacity = '0';
-       email.style.borderColor = 'hsl(246, 25%, 77%)'
-    }
+  
 
-    if(!email.match(/^[A-Za-z]\._\-[0-9]*[@][A-Za-z][\.][a-z]{2;4}$/)) {
+    /*if(!email.match(/^[A-Za-z]\._\-[0-9]*[@][A-Za-z][\.][a-z]{2;4}$/)) {
         errorMsg[2].innerHTML = "Looks like this is not an email";
-        Icons[2].style.opacity ="1"
+        Icons[2].style.opacity ="0"
         return false;
-    }
-    else{
+    }*/
+    else {
+        errorMsg[2].innerHTML = '';
+        Icons[2].style.opacity = '0';
+        email.style.borderColor = 'hsl(246, 25%, 77%)'
         return true;
-    }
+     }
+    
 })
 
 
