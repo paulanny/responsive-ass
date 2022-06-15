@@ -59,8 +59,7 @@ form.addEventListener('submit', (e)=> {
         return false;
     }
     else{
-        errorMsg[3].innerHTML = '';
-        Icons[3].style.opacity = '0';
+        return true;
     }
 })
 
